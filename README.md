@@ -1,12 +1,12 @@
 # ℹ️ This is the repo for the now outdated alpha version. I'm working on the final release, which will be vastly better suited for production use!
 
-![vidify-banner](https://github.com/thecmdrunner/vidify-frontend/assets/38887390/c043b912-0054-4289-970d-b95d5d749fd6)
+![vidify-banner](https://github.com/MercifulSamurai142/vidify-frontend/assets/38887390/c043b912-0054-4289-970d-b95d5d749fd6)
 
 # vidify
 
-vidify is an innovative project that utilizes OpenAI and Remotion to transform content in text format, into polished explainer videos. It uses Google's text-to-speech feature to provide the voice for the video.
+vidify is an innovative project that utilizes Anthropic and Remotion to transform content in text format, into polished explainer videos. It uses Deepgram's text-to-speech feature to provide the voice for the video.
 
-This project is built with a [**`create-t3-app`**](https://create.t3.gg/) for frontend and an Express server for the backend ([another repo](https://github.com/thecmdrunner/vidify-backend)).
+This project is built with a [**`create-t3-app`**](https://create.t3.gg/) for frontend and an Express server for the backend ([another repo](https://github.com/MercifulSamurai142/vidify-backend)).
 
 # Getting Started
 
@@ -20,7 +20,7 @@ To get started, follow these steps:
 
 ## How it Works
 
-vidify works by taking text input (prompt) from the user and utilizing OpenAI's APIs to generate talking points for the video. The script is then passed to Remotion, which generates the actual video with the help of Google's text-to-speech feature. The resulting video is then displayed to the user.
+vidify works by taking text input (prompt) from the user and utilizing Anthropic's APIs to generate talking points for the video. The script is then passed to Remotion, which generates the actual video with the help of Google's text-to-speech feature. The resulting video is then displayed to the user.
 
 ## Contributing
 
@@ -34,5 +34,4 @@ Contributions are welcome and encouraged. If you would like to contribute, pleas
 
 ## License
 
-The source code in this repository is licensed under the MIT license.
 Remotion, a dependency of this project, uses the Remotion license. Note that for some entities a company license is needed. [Read the terms here](https://remotion.dev/license).
